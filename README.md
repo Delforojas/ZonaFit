@@ -1,17 +1,14 @@
 # ZonaFit
 Aplicación de consola en Python para la gestión de clientes de un gimnasio. Permite listar, agregar, modificar y eliminar registros de clientes desde una base de datos MySQL utilizando conexión mediante pool.
 
-📁 Estructura del Proyecto
-zona_fit_db/
-│
+📁 Estructura del Proyecto  
+
+zona_fit_db/  
+│  
 ├── cliente.py           # Clase Cliente (modelo)  
-
 ├── cliente_dao.py       # Acceso a datos (DAO)  
-
 ├── conexion.py          # Gestión de conexión MySQL con pool  
-
 ├── zona_fit_app.py      # Aplicación principal con menú interactivo  
-
 └── README.md            # (Este archivo)  
 
 
